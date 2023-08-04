@@ -1,0 +1,27 @@
+<div class="author">
+  <h2>Blog</h2>
+  <p class="author__body">
+    Here I share my personal ramblings about stuff I'm working on, life-events,
+    problems I'm solving and out loud thoughts.
+  </p>
+</div>
+<section class="articles">
+  <h2 class="articles__heading">Recently Published</h2>
+
+  <ul class="article-ul">
+    <% data.forEach(post => { %>
+
+    <li>
+      <a href="/post/<%= post._id %>">
+        <span class="title"><%= post.title %></span>
+        <!-- <span class="title"><%= post.body %></span> -->
+        <span class="article-list__date"
+          ><%= post.createdAt.toDateString() %></span
+        >
+        <!-- <span class="article-list__date"><%= post.createdAt.toLocaleString() %></span> -->
+      </a>
+    </li>
+
+    <% }) %>
+  </ul>
+</section>
