@@ -25,6 +25,7 @@ The app has the following routes:
 * `/`: The home page.
 * `/blog`: A list of all the blog posts.
 * `/blog/:id`: A single blog post.
+* `/about`: About page.
 * `/admin`: The admin panel.
 
 The admin panel is protected by JWT authentication.
