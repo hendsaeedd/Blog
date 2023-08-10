@@ -91,7 +91,7 @@ img {
 }
 
 /* Image Section */
-.image-container {
+/* .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +102,7 @@ img {
   max-width: 400px;
   overflow: hidden;
   border-radius: var(--border-radius);
-}
+} */
 
 /* Main Header */
 .header {
