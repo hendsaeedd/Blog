@@ -41,24 +41,6 @@ To log in to the app, you can use the `/login` route. The `/login` route accepts
 
 To use JWT authentication to access the admin panel, you need to add the JWT token to the `Authorization` header of your request. The value of the `Authorization` header should be `Bearer <token>`, where `<token>` is the JWT token.
 
-## JWT Authentication
-
-JWT stands for JSON Web Token. JWT is a standard way to authenticate users. A JWT token is a string that contains the user's identity and other information.
-
-To learn more about JWT authentication, you can visit the following resources:
-
-* [JWT.io](https://jwt.io/)
-* [How to Implement JWT Authentication in Node.js](https://www.digitalocean.com/community/tutorials/how-to-implement-jwt-authentication-in-node-js)
-
-## Additional Resources
-
-* [Node.js Documentation](https://nodejs.org/en/docs/)
-* [Express Documentation](https://expressjs.com/en/api.html)
-* [MongoDB Documentation](https://docs.mongodb.com/manual/)
-* [Mongoose Documentation](https://mongoosejs.com/docs/)
-* [EJS Documentation](https://ejs.co/docs/)
-
-
 ## Getting Started
 - Clone the repository
 - Install the dependencies `npm install`
